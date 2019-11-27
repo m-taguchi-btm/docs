@@ -518,4 +518,398 @@ choco install mkcert
 $ mkcert --install
 ```
 
+### vscode tips 
+Ctrl+K Wで全画面閉じる  
+Ctrl+K コマンドを習得
+
+自分のサイトを作る
+便利ウェブツールを作成する
+情報を売る
+サイトを作る
+ARSM販売さいととか？
+
+
+ランサーズ等で出ている案件を自分で作ってパッケージ販売するとか
+
+
+
+PFCバランスダイエット管理アプリ
+
+
+設定
+身長
+体重
+
+グラフの出力
+目標設定
+
+### スペニット強化
+SQL
+SP
+いつも使う文を強化する
+### 詳細設計のチェック項目
+#### 4. 画面項目
+* 表示仕様のセルはすべて文字を折り返す
+
+#### 6. イベント処理詳細
+* 項目の番号連番にする。
+* インデントに気をつける
+
+
+### vueのライフサイクル
+* viewが表示されるまでに各イベントに処理を書くことができる。
+  処理は以下の通り。
+```
+beforeCreate ()
+created ()
+beforeMount ()
+mounted ()
+beforeUpdate ()
+updated ()
+wacth ()
+
+```
+
+#### モーダル出すときはパス指定する
+// 公式にも記述されている
+conputed
+method
+発火させたいタイミング
+beforemount
+
+
+### ag-gridのローディング
+// ローディング開始
+this.$refs.tAgGrid.showLoadingOverlay();
+// ローディング終了
+this.$refs.tAgGrid.hideOverlay();
+
+
+### ダイアログの表示方法
+```
+// ダイアログ画面のテンプレートをインポート
+import hogeDialog from "../../../components/hoge/hogeDialog";
+
+// Vue.extend()で変数に格納する
+const hogehogeDialog = Vue.extend(hogeDialog);
+
+// ダイアログ表示は以下の記述
+  hogehogeDialog.options.router = this.$router;
+  const instance = new hogehogeDialog({
+    i18n: this.$i18n,
+    propsData: {
+      value: true,
+      testNo: row.data.testNo
+    }
+  });
+  // これで表示
+  instance.vm = instance.$mount();
+```
+
+### postgresqlのストアド重複はA5で消せないのでpgadminで消す
+FUNCTIONが複数登録されているかpgAdminで検索しましたが
+2つ登録されているFUNCTIONはありませんでした
+最初にDROP FUNCTIONを起動すればスムーズに登録できます。
+
+
+#### TortoiseGit
+##### スタッシュ一覧からの退避データの戻す方法
+
+1. スタッシュ一覧を選択
+2. スタッシュ一覧が表示されるので任意のスタッシュに対して右クリックメニュー
+3. 「隠した変更を再現」をクリック
+4. 戻っているか確認。
+
+### webpackとは
+* webpack(ウェブパック)とはJSファイルをまとめる高機能なモジュールバンドラー。
+https://qiita.com/Shagamii/items/698a67bab0cd5eefcb4f
+
+
+### Babelとは
+* Babelとは、簡潔にいうと、JavaScriptのコードを新しい書き方から古い書き方へと変換するツールです。
+https://qiita.com/Shagamii/items/a87181c22ea777ee2acc
+
+
+### Active Record
+https://qiita.com/sayuen0/items/42a31f39678e5a14c84e
+Ruby on RailsでRubyのオブジェクトのようにdbを扱える
+OR Mapper (Object <> RDB) ドキュメント（非公式） https://railsguides.jp/active_record_basics.html
+
+
+### EntityFrameworkとは？
+Ruby on RailsにおけるActiveRecord の .NETバージョン。O／Rマッパー。
+ActiveRecordに相当するのは、POCOエンティティ（Plain Old CLR Object）という、
+プロパティだけを持つクラスです。ただ、これはRailsのActiveRecordのように自動生成されずユーザーが自作します。
+
+
+### OR Mapper
+* LaravelのEloquantにあたる
+* Ruby on RailsのActive Record
+* .NETのEntityFramework
+
+
+### ペアプログラミング
+2人のプログラマが1台のワークステーションを使って共同でソフトウェア開発を行う手法という説明が起源である。
+https://ja.wikipedia.org/wiki/%E3%83%9A%E3%82%A2%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0
+
+
+### モブプログラミング
+みんなで画面をみながらわいわいプログラミング（またはそれに準じた作業）をすることです。
+基本的な進め方・コツ・現場で出てきそうな問題点は、ペアプログラミングと似ていると思います。
+https://qiita.com/TAKAKING22/items/31e027dfb6ea8b1a8d69
+
+
+### 質問事項
+* コードを書く上で気をつけていることは？
+```
+* 関数１つの行数が少ない
+* 1つの関数に対して一つの機能をつける
+* if文のネストを多用しない
+* 再帰リターンをする
+* 変数や関数の名前を長くしすぎない
+* 独特な略称を避ける
+```
+
+* ActiveRecordを知っているか？
+* 便利なツールを職場で提案したことはあるか？
+* 設計書がなくてもプログラムが書けるか？
+* PL/SQLを使用したことはあるか？
+* Oracleは使ったことはあるか？
+* 
+
+### Crowi
+https://qiita.com/Bakudankun/items/740ac8ba1395fe4e40a6
+Node.jsで書かれたWebアプリ型Wikiで、ユーザー登録しログインしないと閲覧できないクローズドなWikiです。
+
+### 他人が読みやすいコードとは？
+* 関数１つの行数が少ない
+* 1つの関数に対して一つの機能をつける
+* if文のネストを多用しない
+* 再起リターンをする
+* 変数や関数の名前を長くしすぎない
+* 独特な略称を避ける
+
+### 質問
+・チーム体制や・具体的な業務の流れなど教えて頂きたいです
+
+・ソースレビューは行われますか？
+
+・テスト手法は人力ですか？テストツールを利用しますか？
+
+・使っている開発ツールや覚えていた方が良い事柄はありますか？
+
+・個人的に様々な技術を学びたいと思っているのですがPHP以外の技術にも
+　触れられる機会などはありますでしょうか？
+
+・コミュニケーションツールなどは何か利用されていますか？
+
+・セキュリティについて営業よりお聞きしているのですが
+　私物のマウスやキーボードなどの持ち込みは可能でしょうか？
+
+### Microsoft Windows Server 2016
+https://ja.wikipedia.org/wiki/Microsoft_Windows_Server_2016
+
+### PowerShell ISE
+Windows 10 標準搭載
+
+### Quasar Framework
+https://quasar.dev/
+
+### 結合にCASE文を利用する
+SELECT * FROM table_1 
+ LEFT JOIN table_2
+ ON table_1.name = (CASE WHEN table_2.type = 1 THEN table_2.name 
+                    ELSE table_2.dummy_name END);
+
+
+
+### GoF（Gang of Four）
+
+### Docker とは
+Dockerとは、一台のマシン上に複数の隔離された環境を構築する軽量なコンテナ型の仮想化技術です。
+特定のプロセスの実行環境を Dockerイメージ という単位で管理できます。
+### 参画時にインストールするもの
+* VSCode
+* サクラエディタ
+* Typora
+* CLaunch
+* きゃぷつれ
+* Clibor
+* Slack
+* Git
+* Node.js
+* A5mk2
+* XAMPP
+* GoogleChrome
+* MozillaFireFox
+* Evrithing
+* WinRAR
+* WinMerge
+
+* SVN
+* Google日本語入力
+*
+
+### Git
+* SourceTree
+* TortoiseGit
+* GitKraken
+
+### DBクライアント
+* A5mk2
+* 
+
+### チャットはどれか？
+* Slack
+* ChatWork
+* マターモスト
+* RocketChat
+
+
+
+### SSH化対応
+
+#### SSL認証について
+##### 認証の種類
+SSL証明書にはいくつか認証型に種類があります。
+
+|名前|説明|信頼性|
+|---|---|---|
+|ドメイン認証|ドメインの使用権の有無のみ|低|
+|企業実在性認証|ドメイン+サイト運営団体の実在性の確認(電話認証など)|高|
+|EV認証|サイト運営団体の厳格な確認|最高|
+
+https://www.cpi.ad.jp/column/column08/
+
+
+#### SSLの3つの認証レベル（下にいくほど、レベルが高い認証です）
+DV（Domain Validation）：ドメイン認証
+OV（Organization Validation）：企業認証
+EV（Extended Validation）
+
+
+企業はOVかEV認証を取得する。  
+
+#### 取得後
+証明書(hogehoge.crt)  
+中間証明書(piyopiyo.crt)  
+この2つを取得できているはずなのでサーバーに保管する
+
+保存するディレクトリは基本は /etc/pki/tls/certs
+
+
+
+
+
+#### 実際にSSL証明書を取得する
+SSL証明書を取得するまでのざっくりした流れ
+1. 秘密鍵の作成
+2. 秘密鍵を用いてcsrを作成
+3. csrを認証局のブラウザで貼り付け申し込む
+4. 承認メールが届くので、承認して、証明書を発行してもらう。
+5. 証明書をサーバーに設置して、再起動
+6. 終了
+※現在の証明書の署名アルゴリズムには、SHA-1ではなくSHA-2(SHA-256)を  
+使用することが推奨されているため、sha-256で作ることを前提としてます。  
+
+
+
+
+
+#### ローカル環境のSSL対応を行ってみる
+
+1. Chocolateyのインストール
+https://qiita.com/konta220/items/95b40b4647a737cb51aa
+
+管理者権限のコマンドプロンプトまたはPowerShellで以下のコマンドを実行し、インストール  
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+
+以下コマンドでバージョンが表示されればインストール完了
+```
+choco -v
+```
+
+2. mkcertのインストール
+https://qiita.com/rkunihiro/items/530b5dc685bd3bff2082
+
+管理者権限のコマンドプロンプトまたはPowerShellで以下のコマンドを実行し、インストール  
+```
+choco install mkcert
+```
+
+3. CA証明書をインストール (初回のみ)
+```
+$ mkcert --install
+```
+
+#### ソース管理ツール
+TortoiseGit
+TortoiseSVN
+SourceTree
+
+#### ソース管理ツール(WEB)
+GitHub
+Bitbucket
+GitLub
+Gitbucket
+
+#### サーバー
+Node.js
+Apache
+Nginx
+
+#### DB操作
+A5mk2
+pgadmin4
+MySQL Workbench
+
+#### ソース管理
+SVN
+Git
+
+###Tips
+
+#### A5mk2
+
+- テーブルをお気に入り登録できる
+- フィルターがかけれる
+- レコードからインサート・アップデート文が書ける
+
+
+#### vscode
+- Beautify
+- Bracket Pair Colorizer
+- change-case
+- Debugger for Chrome
+- DotENV
+- ESLint
+- Excel Viewer
+- Favorites
+- Git History
+- GitLens
+- Japanese
+- Markdown PDF
+- Markdown Preview Enhanced
+- Material Icon Theme
+- Night Owl
+- PHP Debug
+- PHP IntelliSense
+- PostgreSQL
+- Regex Previewer
+- Shortcuts
+- SQL Server
+- SQLTools
+- Terminal Tabs
+- TODO Parser
+- Todo Tree
+- Trailing Semicolon
+- Trailing Spaces
+- Vetur
+- vscode-cheatsheet
+- vscode-icons
+
+
+
 
