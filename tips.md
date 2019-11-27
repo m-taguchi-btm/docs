@@ -921,3 +921,8 @@ Git
 質問してきて自己解決しましたと終わらせてくる人には
 どう解決したのか教えて貰うようにする。
 ```
+SeleniumでChromeを起動する
+https://roy29fuku.com/web/python-chrome-selenium-scrayping/
+
+Laravel dusk
+https://readouble.com/laravel/5.7/ja/dusk.html
