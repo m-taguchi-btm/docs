@@ -926,3 +926,130 @@ https://roy29fuku.com/web/python-chrome-selenium-scrayping/
 
 Laravel dusk
 https://readouble.com/laravel/5.7/ja/dusk.html
+
+#### vscode 
+- 矩形範囲選択
+	- Shift + Alt 押しながらマウス選択
+
+Bookmarks
+ブックマーク バー
+### web
+Google 翻訳
+GitHub
+ネーミング | codic
+東海・北陸・近畿の天気 - Yahoo!天気・災害
+Stack Overflow - Where Developers Learn, Share, & Build Careers
+pgAdmin 4
+Mattermost
+Mailtrap - Safe Email Testing
+Webディレクター向け！業務がはかどるGoogle Chromeのおすすめ拡張機能7選！ | ティブる！
+CodeSandbox: Online Code Editor Tailored for Web Application Development
+JSON Editor Online - view, edit and format JSON online
+紹介 | Vue Router
+#### vue
+Vuex とは何か？ | Vuex
+はじめに — Vue.js
+Vue Material Design Component Framework — Vuetify.js
+Lodash Documentation
+ag-grid-react - ag-gridでブールデータのチェックボックスを使う方法 - 答えた
+プロパティ — Vue.js
+laravel
+メール 5.6 Laravel
+[Laravel] Mailableクラスを作らずに、Mail::sendでサクッとメールを送信する - YoheiM .NET
+SEODA. - Laravelでの開発にmailtrapを使う
+Saba note | Laravel5 | Laravel5で送信メールサーバー設定
+Laravel mailable クラスを使ってメールを送信する｜プログラムメモ
+XAMPPでメール送信 │ Webty Staff Blog
+メール送信機能の実装について - Laravel学習帳
+全54種類！Laravel 5.7のバリデーション実例 – console dot log
+【Laravel5.6】カスタムバリデーションはルールオブジェクトを使おう｜Laravel｜PHP｜開発ブログ｜株式会社Nextat（ネクスタット）
+#### ssl
+Apache：SSLサーバ証明書の設定 | CSP SSL
+ローカル環境で SSL を有効にする（for XAMPP） - Laravel学習帳
+SSLサーバー証明書の管理・更新 - KAGOYA Internet Routing
+php - Laravel 5 - redirect to HTTPS - Stack Overflow
+【独自SSL】導入の流れ・設定手順 – さくらのサポート情報
+Webサーバ証明書インストール手順（Apache+OpenSSL）
+Apache環境にSSL証明書をインストール | サイフにやさしいSSL証明書
+SSLサーバ証明書インストール (Apache + mod_ssl + OpenSSL) [新規・更新] - レンタルサーバーW3Lab（岡山本社）
+サーバー証明書のつくりかたと、その原理 - kirinwikiblog
+Amazon LinuxのApache 2.4にSSL証明書を設定してみた ｜ DevelopersIO
+SSLは無料と有料で何が違うの！？今さら聞けないSSLの仕組みと導入のメリット
+SSL/TLS サーバー証明書 : Apache conf ファイルと証明書インストール | DigiCert
+06．SSL設定(1) … SSLの概要
+### tips
+ユーティリティクラス不要論 | anopara
+Regex Test Drive | 正規表現オンラインテストサイト
+【VSCode】おすすめ拡張一覧 - 7080 + 1
+VS Codeで選択範囲のテキストの大文字／小文字を切り替えるには：Visual Studio Code TIPS - ＠IT
+GitHub - ReactiveX/RxPHP: Reactive extensions for PHP
+Reading and writing to file - PhpSpreadsheet Documentation
+PHP/PDFを作成する - Global Wiki
+IT業界でありがちな説明下手について - 文系プログラマによるTIPSブログ
+セルフマネジメントのレベルと欠かせないスキル 〜 自己組織化されたチームを作るためには | Social Change!
+PREP法 - Wikipedia
+プログラマだったら当然知ってるよね？という知識一覧 | anopara
+Visual Studio CodeでCascadia Codeフォント使え – 10bace LOG
+アラフォーがITで逆転するブログ
+WWW SQL Designer - default
+SE（システムエンジニア）の職務経歴書の書き方（テンプレート付）
+Wantedly（ウォンテッドリー）「はたらく」を面白くするビジネスSNS
+フリーランスが取引先との面談で何を聞かれるのか。案件を確実に獲得するためのコツも紹介！ ｜ 25歳で独立したフリーランスエンジニア -じゃけぇ- のあれこれ
+Column Filter: Core Feature of our Datagrid
+### postgresql
+文字列関数と演算子
+比較演算子
+PL/pgSQL/ターミナルにメッセージを表示する - 調べる.DB
+next_tips
+### qiita
+職務経歴書（スキルシート）を作ったので公開します。「書くべきポイント」と「アンチパターン」まとめ - Qiita
+Vue.jsを100時間勉強して分かったこと - Qiita
+Vuex で modules を利用した際の getters の使い方 - Qiita
+Bladeの構文をざっくりと - Qiita
+[Laravel]常時SSLなアプリケーションでのURL生成のベストプラクティスを考える - Qiita
+Vue.js + Vuexでデータが循環する全体像を図解してみた - Qiita
+AWS：無料でSSL証明書を取得する方法 - Qiita
+SSLサーバー証明書の申請～設定方法 - Qiita
+apache 2.4におけるSSL証明書の設定 - Qiita
+ローカル環境用SSLサーバ証明書を簡単に発行する(mkcert) - Qiita
+Chocolateyを使った環境構築の時のメモ - Qiita
+Apache ssl対応メモ - Qiita
+SSL証明書の取得方法 | HTTPからHTTPSへ移行 - Qiita
+Apache httpdで作るHTTPSサーバ - Qiita
+SSLサーバ証明書の購入からインストールまで - Qiita
+うまくメソッド名を付けるための参考情報 - Qiita
+うまくクラス名を付けるための参考情報 - Qiita
+PHPの配列操作がめんどいのでRxPHPを導入する - Qiita
+Vueで日本語PDFの帳票をクライアント生成してダウンロードさせる方法canvas版 - Qiita
+新卒のトレーナーをするときの個人的まとめ - Qiita
+vscodeがいい感じになる設定を継ぎ足していく（俺流vscode秘伝のタレ） - Qiita
+Laravel + Vue + Vuetify で業務サイト作ってみる - Qiita
+単体テストおよび結合テストを作成・実施するときに気をつけたいこと - Qiita
+フリーランスエンジニアの面談ってこんな感じ - Qiita
+エンジニアの転職メモ - Qiita
+リーダブルコード要約とリーダブルコード要約の活用方法 - Qiita
+npm よく使うコマンドまとめ - Qiita
+【５分でなんとなく理解！】Babel入門 - Qiita
+【５分でなんとなく理解！】Webpack入門 - Qiita
+SQL素人でも分かるテーブル結合(inner joinとouter join) - Qiita
+Active Recordまとめ１ - Qiita
+Active Record入門メモ - Qiita
+NUnitで自作クラスのユニットテストを行う - Qiita
+モブプログラミングを実際にやってみた - Qiita
+ES2015で始めるJavaScript入門 - Qiita
+Qiita
+【初心者向け】無料でPythonの基本文法を5時間で学ぼう！ - Qiita
+Electron で Markdownプレゼン作成ツールを作って公開するまで - Qiita
+2019年おすすめBIツール20選！ - Qiita
+Laravel DB Designer
+Active Record - Wikipedia
+最新版で学ぶwebpack 4入門 - JavaScriptのモジュールバンドラ - ICS MEDIA
+開発、日常効率化おすすめツール一覧 - Qiita
+Alfredを使いこなせてない君に！【Alfredの使い方完全版】 - Qiita
+Windows おすすめ環境・ソフト - Qiita
+【まとめ】これ知らないプログラマって損してんなって思う汎用的なツール 100超 - Qiita
+プログラミングでよく使う英単語のまとめ【随時更新】 - Qiita
+Docker for Windowsをインストール
+エンジニアはスケジュール管理・コミュニケーションが大切。3年目を終えて思うこと - ぐるなびをちょっと良くするエンジニアブログ
+SESで、面談時に地雷案件をなるべく避けるための確認ポイント7選(iOS/Androidアプリ開発) - Qiita
+開発者なら知っておくべき 11 のコンソールコマンド - Qiita
